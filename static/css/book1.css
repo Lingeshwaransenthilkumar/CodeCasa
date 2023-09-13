@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lumanosimo&family=Permanent+Marker&family=REM&family=Roboto&family=Ysabeau+SC:wght@600;800;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fira+Sans:wght@600&family=Lumanosimo&family=Permanent+Marker&family=REM&family=Roboto&family=Ysabeau+SC:wght@600;800;1000&display=swap');
+
+.logo i{
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.logo h1{
+    font-family: 'Bungee Spice', cursive;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: rgb(245, 245, 28);
+}
+
+.icon-menu button{
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    margin-left: 20px;
+    color:white;
+}
+.logo .image{
+    font-size: 1rem;
+
+}
+.icon-addtocart button{
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    margin-right: 20px;
+    color: white;
+}
+.nav-list ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+.nav-list ul li:hover{
+    background: #eeeeeeb6;
+    border-radius: 30px;
+    color: hotpink;
+    cursor: pointer;
+    
+}
+.icon-menu h1{
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.Prod_details{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.Prod_details .prod-image{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.Prod_details .prod-content{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+    width: 70%;
+   
+
+}
+.checked {
+    color: orange;
+  }
+
+.star-rating{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+
+}
+.prod_descrip{
+    height: 530px;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1.8px solid grey;
+    border-bottom: 1.8px solid grey;
+}
+.prod_descrip .prod_des_title{
+    margin-left: 20px;
+    font-size: 1rem;
+}
+.prod_descrip .prod_sub_head{
+    margin-left: 30px;
+}
+.prod_descrip .prod_desc_cont{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.ex-prod-head{
+    margin-left: 20px;
+}
+.ex-prod-content{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.ex-prod_details{
+    margin-top: 20px;
+    width: 100%;
+    height: 610px;
+    border-bottom: 1.7px solid grey;
+}
+.rev-heading img{
+    border-radius: 20px;
+}
+.cust-reviews{
+    margin-left: 20px;
+    width: 1005;
+}
+.review1{
+    margin-left: 40px;
+    background: #eeeeeeb6;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+
+.copyrights{
+    height: 50px;
+    width: 100%;
+  }
+  .copyrights h3{
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    padding-top: 10px;
+  
+  }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:760px){
+    .Prod_details{
+        flex-wrap: wrap;
+        height: 800px;
+    }
+    .ex-prod_details{
+        height: 750px;
+    }
+    
+
+
+}
+@media(min-width:761px){
+    .Prod_details .prod-content{
+        margin-top: 70px;
+    }
+    .Prod_details img{
+        height: 360px;
+    }
+    .prod_descrip{
+        height: 300px;
+    }
+}

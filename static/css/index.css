@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Lumanosimo&family=Permanent+Marker&family=REM&family=Roboto&family=Ysabeau+SC:wght@600;800;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fira+Sans:wght@600&family=Lumanosimo&family=Permanent+Marker&family=REM&family=Roboto&family=Ysabeau+SC:wght@600;800;1000&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background: blue;
+    height: 100vh;
+    width: 100vw;
+}
+.logo i{
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.logo h1{
+    font-family: 'Bungee Spice', cursive;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: rgb(245, 245, 28);
+}
+
+.icon-menu button{
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    margin-left: 20px;
+    color:white;
+}
+.logo .image{
+    font-size: 1rem;
+
+}
+.icon-addtocart button{
+    background: transparent;
+    border: transparent;
+    font-size: 2rem;
+    margin-right: 20px;
+    color: white;
+}
+.nav-list ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+.nav-list ul li:hover{
+    background: #eeeeeeb6;
+    border-radius: 30px;
+    color: hotpink;
+    cursor: pointer;
+    
+}
+.icon-menu h1{
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+
+  .landing_page{
+    background:url("/static/images/landing1.jpg");
+    background-size: cover;
+    min-width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .landing_page h3{
+    font-family: 'Bungee Spice', cursive;
+
+    
+  }
+  .landing_page .col{
+    padding-left: 70px;
+  }
+  .landing_page p{
+    font-weight: bold;
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    padding-top: 30px;
+    color: white;
+
+  }
+  .landing_page .row .col{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+  }
+  .genres{
+    width: 100%;
+    height: 800px;
+    background: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+    background-size: 400% 400%;
+    animation: animatebg 3s ease infinite;
+  }
+  @keyframes animatebg{
+
+    0%{
+        background-position: 0%;
+
+    }
+
+    50%{
+        background-position: 100%;
+    }
+    100%{
+         background-position: 0%;
+    }
+}
+
+  
+  .genres-title{
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+
+
+  }
+  .box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin-left: 20px;
+    border: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+  .box .image{
+    min-width: 100%;
+    filter: blur(4px);
+    border: transparent;
+    
+
+  }
+  .box .title{
+    font-family: 'Bungee Spice', cursive;
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    top: 10%;
+    
+
+  }
+
+
+.box :hover{
+    filter: blur(0px);
+    transition: 2s;
+    border: transparent;
+   
+}
+.genres-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.products{
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.product{
+  height: 610px;
+  width: 250px;
+  border: transparent;
+  margin-left: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}  .product:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cost p{
+  margin-left: 5px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.product .buttons{
+  margin-left: 7px;
+}
+.prod-section h1{
+  font-family: 'Bungee Spice', cursive;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  border: 1px solid black;
+  padding-top: 20px;
+  background: rgb(33, 37, 41,1);
+
+
+}
+.product .content{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+
+
+}
+.faq{
+  height: 500px;
+  width: 100%;
+  background: url("/static/images/faq.jpg");
+  background-size: cover;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+  
+.faq button{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.faq .title{
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  
+}
+
+.accordion-body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.reviews{
+  height: 930px;
+  width: 100%;
+  background: #cf1261;
+  padding-top: 10px;
+  background: conic-gradient(from 90deg at 40% -25%, #ffd700, #f79d03, #ee6907, #e6390a, #de0d0d, #d61039, #cf1261, #c71585, #cf1261, #d61039, #de0d0d, #ee6907, #f79d03, #ffd700, #ffd700, #ffd700);
+  background-size: 400% 400%;
+  animation: animatebg 3s ease infinite;
+
+}
+.rev-title{
+ font-family: 'Bungee Spice', cursive;
+ text-align: center;
+ font-size: 3rem;
+
+}
+.box-container .box{
+  height: 380px;
+  width: 320px;
+  border: transparent;
+  background: transparent;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.box-container .box:hover{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  filter: blur(0px);
+  background: white;
+  transition: 1s;
+}
+
+.box-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.r_image{
+  margin-top: 10px;
+  margin-left: 10px;
+  filter: blur(2px);
+  cursor: pointer;
+}
+.box-container p{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.footer{
+  height: 350px;
+  width: 100%;
+  background: white;
+
+}
+
+#map1{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+#foot_ul{
+  margin-left: 100px;
+
+
+}
+#foot_tit{
+  margin-top: 20px;
+  font-family: 'Bungee Spice', cursive;
+
+}
+.copyrights{
+  height: 50px;
+  width: 100%;
+}
+.copyrights h3{
+  font-family: 'Bungee Spice', cursive;
+  text-align: center;
+  padding-top: 10px;
+
+}
+    
+.cart .cart-items li{
+  padding-top: 30px;
+  list-style-type:decimal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; 
+  
+
+}
+.cart-items{
+  background: #eeeeeeb6;
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+
+  
+}
+
+#offcanvasRightLabel{
+  font-family: 'Bungee Spice', cursive;
+
+
+}
+.cart p{
+  font-family: 'Roboto', sans-serif;
+  background: #eeeeeeb6;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  padding-top: 12px;
+  border: transparent;
+  border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:560px){
+    .icon-menu h1{
+        font-size: 1.9rem;
+    }
+    .landing_page h3{
+        width: 60%;
+        padding-top: 10px;
+    }
+    .landing_page p{
+        width: 60%;
+        padding-top: 30px;
+        text-align: justify;
+        padding-right: 20px;
+    }
+    .product{
+      margin-bottom: 100px;
+      margin-top: 50px;
+      margin-right: 100px;
+    } 
+    .box-container{
+      margin-right: 50px;
+    }
+   
+}
+@media(max-width:560px){
+    .landing_page p{
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
+    
+}
+
+@media(max-width:760px){
+    .genres{
+        height: 2100px;
+    }
+    .product{
+      margin-top: 50px;
+    } 
+    .products {
+      height: 4500px;
+    }
+    .reviews{
+      height: 2600px;
+    }
+    .map{
+      margin-left: 100px;
+    }
+    #foot_ul{
+      margin-right: 100px;
+    }
+    #map1{
+      padding-right: 190px;
+      display: none;
+      
+    }
+    .footer{
+      height: 400px;
+
+    }
+    .landing_page p{
+      width: 100%;
+      overflow-x: hidden;
+      font-size: 1.3rem;
+    }
+    
+    
+    
+    
+    
+
+}
